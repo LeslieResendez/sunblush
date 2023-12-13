@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* Lab 14 Website - Leslie Resendez */
+
+
+
+.header {
+  background-color: #8dbeb2;
+  padding: 80px;
+  background-image: url("logosb.png");
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+p{
+  margin-bottom: 10px;
+  text-indent: 10px;
+}
+
+body {
+  font-family: pt sans;
+  color: #5c4c51;
+  background-color: #8dbeb2;
+  font-size: 18px;
+
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.nav {
+  font-family: pt sans;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+li a {
+  display: block;
+  color: #5c4c51;
+  padding: 30px;
+  text-decoration: none;
+  background-color: white;
+}
+
+li a:hover {
+  background-color: #8dbeb2;
+  text-decoration: underline;
+
+}
+
+@font-face {
+  font-family: pacifico;
+  src: url('./fonts/Pacifico-Regular.woff2') format('woff2'),
+    url('./fonts/Pacifico-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+
+}
+
+.pacifico {
+  font-family: pacifico;
+}
+
+@font-face {
+  font-family: pt sans;
+  src: url('./fonts/PTSans-Regular.woff2') format('woff2'),
+    url('./fonts/PTSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
